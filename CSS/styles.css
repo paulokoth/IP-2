@@ -1,0 +1,19 @@
+.Banner{
+  background-image: url(/Users/Evon/Desktop/IP2/ip2/assets/backgrounds/landing.jpg);
+  min-height: 500px;
+  font-family: sans-serif;
+  font-size:30px;
+  text-align: center;
+  color: white;
+}
+
+.breakfast{
+  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/breakfast.jpg);
+}
+.lunch{
+  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/lunch.jpg);
+}
+
+.dinner{
+  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/dinner.jpg);
+}
