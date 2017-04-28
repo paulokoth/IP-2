@@ -1,6 +1,7 @@
 .Banner{
-  background-image: url(/Users/Evon/Desktop/IP2/ip2/assets/backgrounds/landing.jpg);
-  min-height: 500px;
+  background-image: url(../ip2/assets/backgrounds/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: sans-serif;
   font-size:30px;
   text-align: center;
@@ -8,12 +9,47 @@
 }
 
 .breakfast{
-  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/breakfast.jpg);
+  background-image:url(../ip2/assets/foodtop/breakfast.jpg);
+  background-size: 100% 100% cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  min-height: 210px;
 }
 .lunch{
-  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/lunch.jpg);
+  background-image:url(../ip2/assets/foodtop/lunch.jpg);
+  background-size: 100% 100% cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  min-height: 210px;
 }
 
 .dinner{
-  background-image:url(/Users/Evon/Desktop/IP2/ip2/assets/foodtop/dinner.jpg);
+  background-image:url(../ip2/assets/foodtop/dinner.jpg);
+  background-size: 100% 100% cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  min-height: 210px;
+}
+
+.Meals{
+  text-align: center;
+  color:white;
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.HH{
+  color: black;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+.PT{
+  color: white;
+  background-color: #F15A29;
+  font-family: calibri;
+  font-size: 20px;
 }
