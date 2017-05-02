@@ -60,3 +60,52 @@
   font-family: cursive;
   font-size: 50px;
 }
+
+.row1{
+  margin-top: 100px;
+  margin-left:90px;
+  margin-right: 100px;
+  margin-bottom:100px;
+  column-gap: 30px;
+}
+
+.FFoods{
+  display: table;
+}
+
+.FFoodsImg{
+  display:table-cell;
+}
+
+.FFoodsText{
+  display: table-cell;
+  text-align: left;
+  width: 390px;
+}
+
+.row2{
+  margin-top: 100px;
+  margin-left:100px;
+  margin-right:0px;
+  margin-bottom:100px;
+  width: auto;
+  height: auto;
+  column-gap: 50px;
+}
+
+.Drinks{
+  display: table;
+}
+
+.DrinksText{
+  display:table-cell;
+  text-align: right;
+}
+
+.DrinksImg{
+  display: table-cell;
+  width:auto;
+  height: auto;
+  margin-left: 80px;
+  margin-right: 0px;
+}
