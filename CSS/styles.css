@@ -14,7 +14,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
-  min-height: 210px;
+  height: 210px;
+  text-align: center;
 }
 .lunch{
   background-image:url(../ip2/assets/foodtop/lunch.jpg);
@@ -22,7 +23,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
-  min-height: 210px;
+  height: 210px;
+  text-align: center;
 }
 
 .dinner{
@@ -31,20 +33,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
-  min-height: 210px;
-}
-
-.Meals{
+  height:210px;
   text-align: center;
-  color:white;
-  font-family: cursive;
-  font-size: 50px;
 }
 
 .HH{
   color: black;
   font-family: calibri;
   font-size: 20px;
+  text-align: center;
+  height: 105px;
 }
 
 .PT{
@@ -52,4 +50,13 @@
   background-color: #F15A29;
   font-family: calibri;
   font-size: 20px;
+  text-align: center;
+  height:105px;
+}
+
+.Meals{
+  text-align: center;
+  color:white;
+  font-family: cursive;
+  font-size: 50px;
 }
