@@ -1,113 +1,146 @@
-.Banner{
+.Banner {
   background-image: url(../ip2/assets/backgrounds/landing.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
-  font-size:30px;
+  font-size: 30px;
   text-align: center;
   color: white;
 }
 
-.breakfast{
-  background-image:url(../ip2/assets/foodtop/breakfast.jpg);
+.breakfast {
+  background-image: url(../ip2/assets/foodtop/breakfast.jpg);
   background-size: 100% 100% cover;
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
   height: 210px;
   text-align: center;
+  font-style: italic;
+  font-size:30px;
+  font-weight: 200;
 }
-.lunch{
-  background-image:url(../ip2/assets/foodtop/lunch.jpg);
+
+.lunch {
+  background-image: url(../ip2/assets/foodtop/lunch.jpg);
   background-size: 100% 100% cover;
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
   height: 210px;
   text-align: center;
+  font-style: italic;
+  font-size:30px;
+  font-weight: 200;
 }
 
-.dinner{
-  background-image:url(../ip2/assets/foodtop/dinner.jpg);
+.dinner {
+  background-image: url(../ip2/assets/foodtop/dinner.jpg);
   background-size: 100% 100% cover;
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
-  height:210px;
+  height: 210px;
   text-align: center;
+  font-style: italic;
+  font-size:30px;
+  font-weight: 200;
 }
 
-.HH{
+.HH {
   color: black;
-  font-family: calibri;
   font-size: 20px;
   text-align: center;
   height: 105px;
 }
 
-.PT{
+.PT {
   color: white;
   background-color: #F15A29;
-  font-family: calibri;
   font-size: 20px;
   text-align: center;
-  height:105px;
+  height: 105px;
 }
 
-.Meals{
+.Meals {
   text-align: center;
-  color:white;
-  font-family: cursive;
+  color: white;
   font-size: 50px;
+  font-family: sans-serif;
 }
 
-.row1{
-  margin-top: 100px;
-  margin-left:90px;
-  margin-right: 100px;
-  margin-bottom:100px;
-  column-gap: 30px;
+.MealsText p{
+  padding-top: 30%;
+}
+
+.Meals-link p{
+  padding-top: 10%;
+}
+
+.row1 {
+  margin: 100px;
+  column-gap: 50px;
   width: auto;
-  heigh
+  height: auto;
 }
 
-.FFoods{
+.FFoods {
   display: table;
 }
 
-.FFoodsImg{
-  display:table-cell;
+.FFoodsImg {
+  background-color: grey;
+  align-items: center;
 }
 
-.FFoodsText{
+.FFoodsText {
   display: table-cell;
   text-align: left;
-  width: 390px;
 }
 
-.row2{
+.row2 {
   margin-top: 100px;
-  margin-left:100px;
-  margin-right:0px;
-  margin-bottom:100px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-bottom: 100px;
   width: auto;
   height: auto;
   column-gap: 50px;
 }
 
-.Drinks{
+.Drinks {
   display: table;
 }
 
-.DrinksText{
-  display:table-cell;
+.DrinksText {
+  display: table-cell;
   text-align: right;
 }
 
-.DrinksImg{
+.DrinksImg {
   display: table-cell;
-  width:auto;
+  width: auto;
   height: auto;
   margin-left: 80px;
   margin-right: 0px;
+}
+
+.row1 button{
+  color: #F15A29;
+  height: 50px;
+  width: 200px;
+  background-color: inherit;
+  border-radius: 5px;
+  border-color: #F15A29;
+  border-width: thin;
+}
+
+.row2 button{
+  color: #F15A29;
+  height: 50px;
+  width: 200px;
+  background-color: inherit;
+  border-radius: 5px;
+  border-color: #F15A29;
+  border-width: thin;
 }
