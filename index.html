@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
-  <!--Add script-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="JS/styles.js"></script>
 </head>
 
 <body>
@@ -46,25 +48,66 @@
 
     <div class="col-md-6 FFoodsText">
       <h2>Fast Food</h2>
-      <h3>You'll love delicious fast food</h3>
-      <p>Lorem ipsum Proin eu nunc elementum, eleifend dolor non, interdum nisl. Nam auctor metus lectus, a elementum massa lacinia vitae. Aliquam et eleifend orci. Etiam porta euismod lectus et venenatis. Curabitur semper risus vulputate arcu vestibulum
+        <h3>You'll love delicious fast food</h3>
+          <p>Lorem ipsum Proin eu nunc elementum, eleifend dolor non, interdum nisl. Nam auctor metus lectus, a elementum massa lacinia vitae. Aliquam et eleifend orci. Etiam porta euismod lectus et venenatis. Curabitur semper risus vulputate arcu vestibulum
         sodales. Donec leo tortor, cursus gravida feugiat id, faucibus et urna. Donec elementum dui at ex dapibus aliquet yada yada yada</p>
-      <button>VIEW GALLERY →</button>
+          <button>VIEW GALLERY →</button>
     </div>
   </div>
 
   <div class="row2 container-fluid Drinks">
     <div class="col-md-4 DrinksText">
       <h2>Drinks</h2>
-      <h3>We also produce delicious drinks</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum massa leo, id hendrerit massa facilisis non. Suspendisse condimentum erat eget dictum placerat. Phasellus fermentum ex sit amet fringilla varius. Pellentesque imperdiet varius
+        <h3>We also produce delicious drinks</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum massa leo, id hendrerit massa facilisis non. Suspendisse condimentum erat eget dictum placerat. Phasellus fermentum ex sit amet fringilla varius. Pellentesque imperdiet varius
         felis, vitae viverra diam dignissim ac. Vivamus pulvinar lectus et facilisis tincidunt. Sed faucibus commodo risus, eget pellentesque mauris blandit eget. Mauris a pretium nunc.</p>
-      <button>VIEW GALLERY →</button>
+          <button>VIEW GALLERY →</button>
     </div>
 
     <div class="col-md-8 DrinksImg">
       <div class="col-md-4"><img src="ip2/assets/drink1.jpg" alt="Drink1"></div>
       <div class="col-md-4"><img src="ip2/assets/drink2.jpg" alt="Drink2"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid foods">
+    <div class="container navigationtabs">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
+        <li><a data-toggle="tab" href="#Drinks">Drinks</a></li>
+        <li><a data-toggle="tab" href="#Chicken">Chicken</a></li>
+        <li><a data-toggle="tab" href="#Rice">Rice</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="fastfood" class="tab-pane fade in active">
+          <ul class="list-inline">
+            <li><img src="ip2/assets/fastfood/chickenBurger.jpg" alt="Chicken burger"></li>
+            <li><img src="ip2/assets/fastfood/beefBurger.jpg" alt="Beef burger"></li>
+            <li><img src="ip2/assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container customers">
+    <div class="container reviewsection">
+      <div class="col-md-6 HappyCustomers">
+        <h3>Our Happy Customers</h3>
+          <h4>George Richard</h4>
+            <p>Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them :)</p>
+                <ul class="list-inline">
+                  <li><img src="ip2/assets/customers/p1.png" alt="first customer"></li>
+                  <li><img src="ip2/assets/customers/p2.png" alt="second customer"></li>
+                  <li><img src="ip2/assets/customers/p3.png" alt="third customer"></li>
+                </ul>
+        </div>
+      <div class="col-md-6 AboutMenu">
+        <h3>About Menu</h3>
+          <p>Our Menu has little over 7 items. Eu nunc elementum, eleifend dolor non, interdum nisl. Nam auctor metus lectus, a elementum massa lacinia vitae. Aliquam et eleifend orci. Etiam porta euismod lectus et venenatis. Curabitur semper risus vulputate arcu vestibulum
+      sodales.</p>
+      </div>
     </div>
   </div>
 

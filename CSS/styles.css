@@ -144,3 +144,36 @@
   border-color: #F15A29;
   border-width: thin;
 }
+
+.foods {
+  background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
+  align-content: center;
+  background-size: cover;
+}
+
+.navigationtabs {
+  background-color: white;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: white;
+  overflow: hidden;
+}
+
+.reviewsection {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: white;
+  overflow: hidden;
+}
